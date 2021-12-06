@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+body{
+    font-family: "Roboto" , sans-serif;
+}
+.header{
+    color: white;
+    background-color: #6868f6;
+    padding:40px 30px;
+}
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.menu-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.menu-item a{
+    color: white;
+}
+.hero{
+    text-align: center;
+    background: #0005 url("./images/zdanie.jpg") no-repeat center/cover;
+    background-blend-mode: darken;
+    padding: 50px 30px 50px;
+    color: white;
+}
+.hero-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero-subtitle{
+    margin-bottom: 10px;
+}
+.events-item{
+    background-color: green;
+    padding: 40px;
+}
+.event-title{
+    margin-bottom: 25px;
+}
+.event-link{
+    color: white;
+}
+.blue{
+    background-color: #5353cd;
+}
+.yellow{
+    background-color: #f8c23b;
+}
+.red{
+    background-color: #f84e4e;
+}
+.ocean{
+    background-color: #5151f3;
+}
+.footer{
+    background-color: dodgerblue;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+.carts{
+    background-color: #8fb4f5;
+    padding: 20px 10px;
+}
+.carts-img{
+    width: 200px;
+}
+.carts-item{
+    background-color: #0e70ac;
+    padding: 10px;
+    color: white;
+    margin: 15px;
+}
+.carts-title{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.carts-subtitle{
+    margin-bottom: 10px;
+}
