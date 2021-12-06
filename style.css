@@ -31,7 +31,7 @@ body{
 }
 .hero{
     text-align: center;
-    background: #0005 url("./images/zdanie.jpg") no-repeat center/cover;
+    background: #0005 url("./images/zdanie.jpg") fixed no-repeat center/cover;
     background-blend-mode: darken;
     padding: 50px 30px 50px;
     color: white;
@@ -65,21 +65,20 @@ body{
 .ocean{
     background-color: #5151f3;
 }
-.footer{
-    background-color: dodgerblue;
-    padding: 30px;
-    text-align: center;
-    color: #fff;
-}
 .carts{
-    background-color: #8fb4f5;
+    background-color: #98b7ee;
     padding: 20px 10px;
 }
 .carts-img{
     width: 200px;
 }
+.carts-day{
+    text-align: right;
+    color: black;
+}
 .carts-item{
-    background-color: #0e70ac;
+    background-color: #4796cd;
+    border-radius: 10px;
     padding: 10px;
     color: white;
     margin: 15px;
@@ -91,4 +90,28 @@ body{
 }
 .carts-subtitle{
     margin-bottom: 10px;
+}
+.news{
+    background-color: #f5f1f0;
+    padding: 30px;
+
+}
+.news-event{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.news-img{
+    width: 200px;
+}
+.news-subtitle{
+    color: red;
+    margin-bottom:5px;
+}
+.footer{
+    background-color: dodgerblue;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
 }
